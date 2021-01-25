@@ -6,18 +6,17 @@
 </head>
 
 <body>
-    <h2>Registration Form</h2>
+    <h3></h3>
 
-    <form action="reg.php" method="POST">
+    <form action="reg.html" method="POST">
         <label for="name">Name: </label>
         <input type="text" name="username" id="name" placeholder="Type Your Username" required />
         <br />
         <label for="email">Email: </label>
         <input type="email" name="email" placeholder="Type Your Email" required />
         <br />
-        <label for="contact">Contact: </label>
-        <input type="number" name="Contact" placeholder="Type your Contact" required />
-        <br />
+        <label for="phone">Contact: </label>
+        <input type="tel" id="phone" name="phone" placeholder="Type Your Contact" maxlength="10" minlength="10" required /><br />
         <label for="city">City: </label>
 
         <select name="cars" id="city">
@@ -33,7 +32,7 @@
         <input type="checkbox" id="course2" name="course2" value="cour2" />
         <label for="course2">CSS</label>
         <input type="checkbox" id="course3" name="course3" value="cour3" />
-        <label for="course3">PHP</label><br /> la
+        <label for="course3">PHP</label><br />
 
         <br /><br />
         <input type="submit" value="Submit" />
