@@ -14,7 +14,7 @@
         <form action="reg.html" method="POST">
             <div class="row">
                 <div class="col-25">
-                    <label for="name">Name </label>
+                    <label for="name">Name*</label>
                 </div>
                 <input class="input" type="text" name="firstname" id="name" placeholder="First Name" required />
                 <input type="text" name="lastname" id="name" placeholder="Last Name" required />
@@ -23,39 +23,45 @@
 
             <div class="row">
                 <div class="col-25">
-                    <label for="email">E-Mail Address </label>
+                    <label for="email">E-Mail Address*</label>
                 </div>
-                <input type="email" name="email" placeholder="Mail@example.com" required />
+                <div class="email">
+                    <input type="email" name="email" placeholder="Mail@example.com" size="43" required />
+                </div>
+
             </div>
             <br />
 
             <div>
                 <div class="col-25">
-                    <label for="phone">Phone Number </label>
+                    <label for="phone">Phone Number*</label>
                 </div>
-                <input type="tel" id="phone" name="phone" placeholder="Phone Number" maxlength="10" minlength="10" required /><br />
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" maxlength="10" minlength="10" size="43" required /><br />
             </div>
             <br>
 
             <div>
                 <div class="col-25">
-                    <label for="gender">Gender</label>
+                    <label for="gender">Gender*</label>
                 </div>
-                <select name="gender" id="gender" required>
-            <option style="color:blue;" value="" disabled selected hidden>Gender</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="other">Other</option>
-          </select>
+                <div class="gender">
+                    <select name="gender" id="gender" required style="width: 364px">
+              <option style="color:blue;" value="" disabled selected hidden>Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+                </div>
             </div>
             <br />
             <div>
                 <div class="col-25">
-                    <label for="country">Citizen</label>
+                    <label for="country">Citizen*</label>
                 </div>
 
-                <select id="country" name="country" required>
-            <option value="" disabled selected hidden>Select Country</option>
+                <select id="country" name="country" required style="width: 364px;">
+            <option value="" disabled selected hidden style="color: darkgrey;">Select
+              Country</option>
             <option value="Afganistan">Afghanistan</option>
             <option value="Albania">Albania</option>
             <option value="Algeria">Algeria</option>
@@ -315,9 +321,9 @@
             <br />
             <div class="row">
                 <div class="col-25">
-                    <label for="DOBDay">Date of Birth</label>
+                    <label for="DOBDay">Date of Birth*</label>
                 </div>
-                <select name="DOBDay" required>
+                <select name="DOBDay" style="width: 110px;" required>
             <option>Day</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -349,7 +355,10 @@
             <option value="28">28</option>
             <option value="29">29</option>
             <option value="30">30</option>
-            <option value="31">31</option></select><select name="DOBMonth" required>
+            <option value="31">31</option>
+          </select>
+
+                <select name="DOBMonth" required style="width: 120px;">
             <option>Month</option>
             <option value="January">January</option>
             <option value="Febuary">Febuary</option>
@@ -362,7 +371,10 @@
             <option value="September">September</option>
             <option value="October">October</option>
             <option value="November">November</option>
-            <option value="December">December</option></select><select name="DOBYear" required>
+            <option value="December">December</option>
+          </select>
+
+                <select name="DOBYear" style="width: 127px;" required>
             <option>Year</option>
             <option value="2021">2021</option>
             <option value="2020">2020</option>
@@ -407,24 +419,29 @@
 
             <div class="row">
                 <div class="col-25">
-                    <label for="address">Address</label>
+                    <label for="address">Address*</label>
                 </div>
                 <input type="text" id="streetAddress" name="address" placeholder="Street-Address" required />
-                <input type="text" id="streetLine2" name="address" placeholder="Street-Line 2" required />
-                <br /><br />
+                <input type="text" id="streetLine2" name="address" placeholder="Street-Line-2" required />
+                <br /><br>
 
-                <input type="text" id="landmark" name="address" placeholder="Landmark" required />
-                <input type="text" id="city" name="address" placeholder="City" required />
+                <div class="col-75">
+                    <input type="text" id="landmark" name="address" placeholder="Landmark" required />
+                    <input type="text" id="city" name="address" placeholder="City" required />
+                </div>
                 <br />
-                <br />
-                <input type="text" id="state" name="address" placeholder="State/Province" required />
 
-                <input type="tel" id="phone" name="" placeholder="Postal/Zip Code" maxlength="10" required /><br />
-
+                <div class="col-75">
+                    <input type="text" id="state" name="address" placeholder="State/Province" required />
+                    <input type="tel" id="phone" name="" placeholder="Postal/Zip Code" maxlength="10" required /><br />
+                </div>
             </div>
             <br />
+            <div class="col-75">
+                <input type="submit" value="SUBMIT" />
+            </div>
 
-            <input type="submit" value="Submit" />
+
         </form>
     </div>
 </body>
