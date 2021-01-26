@@ -23,7 +23,7 @@
          
                           
 
-:small_orange_diamond: [**Assignment-2**](https://github.com/hackcoderr/Docker/tree/master/docker_images) : *This Directory has Assignment-2 codes which are the following:
+:small_orange_diamond: [**Assignment-2**](https://github.com/hackcoderr/Full-Stack-Web-Development/tree/main/Assignment-2) : *This Directory has Assignment-2 codes which are the following:*
 
 :small_blue_diamond: **Table** : Create following table using HTML and CSS. You must use some class and ID selectors for styling as per the requirements.
 
@@ -34,7 +34,7 @@ as it is shown in the table.
 • Required colour codes for this design: Red (1st Row) - #FC3004, Blue (2nd Row) -
 #041EFC, Purple (3rd Row) -#D604FC and Black (all other rows) - #000000
 
-:small_blue_diamond: **Registeration form** Create the form (on right side) using HTML-5 and CSS. You must use some class and ID selectors for styling as per the requirements.
+:small_blue_diamond: **Registeration form**: Create the form (on right side) using HTML-5 and CSS. You must use some class and ID selectors for styling as per the requirements.
 All the CSS has to be inside an external CSS file, style.css and then linked to html file. Star * shows that the corresponding fields are required. Submit button has blue colour.
 
 
