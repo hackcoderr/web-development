@@ -4,25 +4,41 @@
 
 [CSS Reference](https://www.w3schools.com/cssref/default.asp) -->
 
-# :sparkles: Docker Engine :sparkles:
+# :sparkles: Full Stack Web Development :sparkles:
 
 
-<img src="https://miro.medium.com/max/884/1*DWNRIWDNB2eUf0rkpDuSWg.png" width="1100" height="500" alt=""> 
+<img src="https://www.edureka.co/blog/wp-content/uploads/2018/11/Full-Stack-Developer-RoadMap-How-To-Become-A-Full-Stack-Developer-Edureka.png" alt="full stack web development"> 
 
-### :books: This repository is made for having all concepts, codes, and projects related to Docker Engine
+### :books: This repository is made for having all concepts, codes, and projects related " Full Stack Web Development"
 
 #
 
-**Repository has the following Docker Engine Projects**        
+**Repository has the following Codes, Assignments and Projects**        
          
- * Docker Images
-	 * httpd
-	  	* v1
+ * Assignment-2
+	 * Make a Table with the help of HTML & CSS.
+	 * Make a Registeration Form with help of HTML & CSS.
+	  	
 	  	
          
                           
 
-:small_orange_diamond: [**Docker Images**](https://github.com/hackcoderr/Docker/tree/master/docker_images) : *This Directory has Docker Images which created by me and I am continuely working on these docker images and improving them with different differnrt versions*
+:small_orange_diamond: [**Assignment-2**](https://github.com/hackcoderr/Docker/tree/master/docker_images) : *This Directory has Assignment-2 codes which are the following:
+
+:small_blue_diamond: **Table** : Create following table using HTML and CSS. You must use some class and ID selectors for styling as per the requirements.
+
+* Note: Note: Please keep following things in mind while attempting this question.
+• Table rows has dotted inner borders.
+• The text shown in bold, italic or underline is needed to be design in the same way
+as it is shown in the table.
+• Required colour codes for this design: Red (1st Row) - #FC3004, Blue (2nd Row) -
+#041EFC, Purple (3rd Row) -#D604FC and Black (all other rows) - #000000
+
+:small_blue_diamond: **Registeration form** Create the form (on right side) using HTML-5 and CSS. You must use some class and ID selectors for styling as per the requirements.
+All the CSS has to be inside an external CSS file, style.css and then linked to html file. Star * shows that the corresponding fields are required. Submit button has blue colour.
+
+
+
 
 #
 :loudspeaker:
