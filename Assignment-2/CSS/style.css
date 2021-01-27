@@ -27,7 +27,7 @@ input,
 [type="text"] {
     border: 2px solid rgb(241, 240, 240);
     border-radius: 2px;
-    height: 35;
+    height: 35px;
 }
 
 select {

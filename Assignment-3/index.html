@@ -5,90 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration form</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gorditas&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <form action="reg.php" method="POST">
-            <div class="row">
-                <div class="col-25">
-                    <label for="username">Name</label>
+    <!-- form html is started-->
+    <div class="form">
+        <div class="header">
+            <h1>Registration Form</h1>
+        </div>
+        <div class="description">
+            <p>Please Fill up your informations to register</p>
+        </div>
+        <div class="container">
+            <form action="reg.php" method="POST">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="username">Name*</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+                        <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+                    </div>
                 </div>
-                <div class="col-75">
-                    <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
-                    <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="email">Email</label>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email*</label>
+                    </div>
                     <div class="col-75">
                         <input type="email" name="email" id="email" placeholder="username@gmail.com" size="43" required>
                     </div>
                 </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="contact">Contact*</label>
             </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="contact">Contact</label>
-                </div>
-                <div class="col-75">
-                    <input type="tel" name="phone" id="phone" placeholder="+91 9084369325" maxlength="10" minlength="10" size="43" required>
-                </div>
+            <div class="col-75">
+                <input type="tel" name="phone" id="phone" placeholder="+91 9084369325" maxlength="10" minlength="10" size="43" required>
             </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="gender">City</label>
-                </div>
-                <div class="col-75">
-                    <select name="city" id="city" required style="width: 364px">
-              <option  value="" disabled selected hidden>Select Your City</option>
-              <option value="dehradun">Dehradun</option>
-              <option value="delhi">Delhi</option>
-              <option value="mumbai">Mumbai</option>
-              <option value="lucknow">Lucknow</option>
-              <option value="shimla">Shimla</option>
-            </select>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="gender">City*</label>
             </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="gender">Course</label>
-                </div>
-                <div class="col-75">
-                    <select name="course" id="course" required style="width: 364px">
-                  <option  value="" disabled selected hidden>Select Your Course</option>
-                  <option value="cse">B.Tech (CSE)</option>
-                  <option value="mach">B.Tech (Mach)</option>
-                  <option value="civil">B.Tech (Civil)</option>
-                  <option value="electrical">B.Tech (EE)</option>
-                  <option value="electronics">B.Tech (ECE)</option>
-                  <option value="bio">Bio-Tech</option>
+            <div class="col-75">
+                <select name="city" id="city" required style="width: 364px">
+                  <option  value="" disabled selected hidden>select your city</option>
+                  <option value="dehradun">Dehradun</option>
+                  <option value="delhi">Delhi</option>
+                  <option value="mumbai">Mumbai</option>
+                  <option value="lucknow">Lucknow</option>
+                  <option value="shimla">Shimla</option>
                 </select>
-                </div>
             </div>
-            <div class="row">
-                <div>
-                    <label for="interest">Interest</label>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="gender">Course*</label>
+            </div>
+            <div class="col-75">
+                <select name="course" id="course" required style="width: 364px">
+                      <option  value="" disabled selected hidden>select your course</option>
+                      <option value="cse">B.Tech (CSE)</option>
+                      <option value="mach">B.Tech (Mach)</option>
+                      <option value="civil">B.Tech (Civil)</option>
+                      <option value="electrical">B.Tech (EE)</option>
+                      <option value="electronics">B.Tech (ECE)</option>
+                      <option value="bio">Bio-Tech</option>
+                    </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="interest">Interest*</label>
+            </div>
+            <div class="col-75">
                 <input type="checkbox" id="programming" name="programming" value="Programming">
-                <label for="programming">Programming</label>
+                <label for="programming">Coding</label>
                 <input type="checkbox" id="weblopment" name="web" value="Web">
-                <label for="web"> Web Development</label>
+                <label for="web"> Web </label>
                 <input type="checkbox" id="app" name="app" value="App">
-                <label for="app">App Development </label>
+                <label for="app">App</label>
                 <input type="checkbox" id="sport" name="sport" value="Sport">
                 <label for="sport">Sport</label>
                 <input type="checkbox" id="music" name="music" value="Music">
                 <label for="music">Music</label>
             </div>
+        </div>
 
-            <div class="col-75">
-                <input type="submit" value="SUBMIT" />
-            </div>
+        <div class="col-75">
+            <input type="submit" value="REGISTER" />
+        </div>
 
         </form>
 
     </div>
+    </div>
+    <!-- html form is ended-->
 
 </body>
 

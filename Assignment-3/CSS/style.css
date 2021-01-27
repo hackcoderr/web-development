@@ -1,1 +1,66 @@
-
+        body {
+            background-image: url(https://meark.org/wp-content/uploads/2019/10/tech-background-image-1-1-min.jpg);
+            font-family: 'Gorditas', cursive;
+            margin: 60px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .form {
+            color: rgb(250, 250, 250);
+            text-shadow: 1px 1px rgb(143, 158, 5);
+        }
+        
+        .header {
+            margin-left: 60px;
+        }
+        
+        .description {
+            font-size: 20px;
+        }
+        
+        .row {
+            padding: 7px;
+        }
+        
+        .col-25 {
+            float: left;
+            width: 10%;
+        }
+        
+        input[type="submit"] {
+            background-color: rgb(38, 125, 136);
+            font-family: 'Gorditas', cursive;
+            border-radius: 4px;
+            font-size: 15px;
+            width: 33%;
+            color: rgb(250, 250, 250);
+            text-shadow: 1px 1px rgb(50, 51, 43);
+            border: 2px solid rgb(231, 227, 227);
+            margin-left: 5px;
+        }
+        
+        input,
+        [type="text"] {
+            border: 2px solid rgb(241, 240, 240);
+            border-radius: 2px;
+            height: 25px;
+        }
+        
+        select {
+            border-radius: 4px;
+            background: white;
+            color: rgba(0, 0, 0, 0.4);
+            text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+            font-family: 'Satisfy', cursive;
+        }
+        
+         ::placeholder {
+            color: rgba(0, 0, 0, 0.4);
+            text-shadow: 1px 0px rgba(0, 0, 0, 0.4);
+            font-family: 'Satisfy', cursive;
+        }
+        
+        .col-75 {
+            margin-left: 150px;
+        }
